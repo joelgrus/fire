@@ -16,7 +16,7 @@ which will scrape from 2011-01-01 until today.
 
 ## Python
 
-In the `python` directory is the code I used for my analysis.  
+In the `python` directory is the code I used for my analysis.  None of these files is particularly command-line-able, I mostly copied and pasted from them into iPython.
 
 ### `fire.py` 
 
