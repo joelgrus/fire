@@ -16,9 +16,6 @@ def json_loc(bad_loc,geocoder_url):
     """turn a scraped location into a geocoder url to retrieve"""
     return geocoder_url + '?sensor=false&address=' + good_loc(bad_loc)
 
-    locations = { i['location'] : None
-              for i in incidents }
-
 def geocode(location_list,geocoder_url=GEOCODER_URL):
     """take a list of locations and return a dictionary with the locations as the keys and the geocoding result as the value"""
     opener = urllib2.build_opener()

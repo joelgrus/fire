@@ -32,7 +32,7 @@ def compute_connections(incidents,
     return connections, counts_by_unit
 
 def make_networkx_graph(incidents,
-                        incident_filter==(lambda i: True),
+                        incident_filter=(lambda i: True),
                         min_checkins=MIN_CHECKINS,
                         min_connections=MIN_CONNECTIONS):
     
