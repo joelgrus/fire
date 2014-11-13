@@ -40,7 +40,7 @@ Like I mentioned before, the data is too big to post here, but if you want it th
 
 ## Slides
 
-I'll put a link here once they're done.
+Can be found [here](http://www.slideshare.net/joelgrus/joel-grus-secretsoffiretrucksociety).
 
 ## Talk
 
